@@ -10,7 +10,7 @@
 # Define a StructField for name, age, and city. Each field should correspond to the correct datatype and not be nullable.
 
 # Import the pyspark.sql.types library
-import pyspark.sql.types
+from pyspark.sql.types import *
 
 # Define a new schema using the StructType method
 people_schema = pyspark.sql.types.StructType([
